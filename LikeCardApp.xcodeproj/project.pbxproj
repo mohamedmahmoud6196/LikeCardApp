@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3A6FDA4F2970542100CA58CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA4E2970542100CA58CE /* AppDelegate.swift */; };
 		3A6FDA512970542200CA58CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA502970542200CA58CE /* SceneDelegate.swift */; };
-		3A6FDA532970542200CA58CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA522970542200CA58CE /* ViewController.swift */; };
-		3A6FDA562970542200CA58CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FDA542970542200CA58CE /* Main.storyboard */; };
-		3A6FDA582970542300CA58CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FDA572970542300CA58CE /* Assets.xcassets */; };
 		3A6FDA5B2970542300CA58CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */; };
 		3A6FDA662970542300CA58CE /* LikeCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA652970542300CA58CE /* LikeCardAppTests.swift */; };
 		3A6FDA702970542300CA58CE /* LikeCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA6F2970542300CA58CE /* LikeCardAppUITests.swift */; };
 		3A6FDA722970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA712970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift */; };
+		3A91C62A297056B90034CD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91C626297056B90034CD42 /* ViewController.swift */; };
+		3A91C62B297056B90034CD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A91C627297056B90034CD42 /* Assets.xcassets */; };
+		3A91C62C297056B90034CD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91C628297056B90034CD42 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +39,6 @@
 		3A6FDA4B2970542100CA58CE /* LikeCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6FDA4E2970542100CA58CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6FDA502970542200CA58CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A6FDA522970542200CA58CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A6FDA552970542200CA58CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3A6FDA572970542300CA58CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6FDA5A2970542300CA58CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6FDA5C2970542300CA58CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A6FDA612970542300CA58CE /* LikeCardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +46,9 @@
 		3A6FDA6B2970542300CA58CE /* LikeCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6FDA6F2970542300CA58CE /* LikeCardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardAppUITests.swift; sourceTree = "<group>"; };
 		3A6FDA712970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A91C626297056B90034CD42 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A91C627297056B90034CD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A91C629297056B90034CD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,8 @@
 		3A6FDA4D2970542100CA58CE /* LikeCardApp */ = {
 			isa = PBXGroup;
 			children = (
-				3A6FDA4E2970542100CA58CE /* AppDelegate.swift */,
-				3A6FDA502970542200CA58CE /* SceneDelegate.swift */,
-				3A6FDA522970542200CA58CE /* ViewController.swift */,
-				3A6FDA542970542200CA58CE /* Main.storyboard */,
-				3A6FDA572970542300CA58CE /* Assets.xcassets */,
-				3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */,
-				3A6FDA5C2970542300CA58CE /* Info.plist */,
+				3A91C625297056B90034CD42 /* ReUsedModule */,
+				3A6FDA7F2970544C00CA58CE /* Supporting */,
 			);
 			path = LikeCardApp;
 			sourceTree = "<group>";
@@ -125,6 +120,27 @@
 				3A6FDA712970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift */,
 			);
 			path = LikeCardAppUITests;
+			sourceTree = "<group>";
+		};
+		3A6FDA7F2970544C00CA58CE /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				3A6FDA4E2970542100CA58CE /* AppDelegate.swift */,
+				3A6FDA502970542200CA58CE /* SceneDelegate.swift */,
+				3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */,
+				3A6FDA5C2970542300CA58CE /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3A91C625297056B90034CD42 /* ReUsedModule */ = {
+			isa = PBXGroup;
+			children = (
+				3A91C626297056B90034CD42 /* ViewController.swift */,
+				3A91C627297056B90034CD42 /* Assets.xcassets */,
+				3A91C628297056B90034CD42 /* Main.storyboard */,
+			);
+			path = ReUsedModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A91C62C297056B90034CD42 /* Main.storyboard in Resources */,
+				3A91C62B297056B90034CD42 /* Assets.xcassets in Resources */,
 				3A6FDA5B2970542300CA58CE /* LaunchScreen.storyboard in Resources */,
-				3A6FDA582970542300CA58CE /* Assets.xcassets in Resources */,
-				3A6FDA562970542200CA58CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6FDA532970542200CA58CE /* ViewController.swift in Sources */,
+				3A91C62A297056B90034CD42 /* ViewController.swift in Sources */,
 				3A6FDA4F2970542100CA58CE /* AppDelegate.swift in Sources */,
 				3A6FDA512970542200CA58CE /* SceneDelegate.swift in Sources */,
 			);
@@ -297,20 +313,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3A6FDA542970542200CA58CE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A6FDA552970542200CA58CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3A6FDA5A2970542300CA58CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A91C628297056B90034CD42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A91C629297056B90034CD42 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -438,7 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LikeCardApp/Info.plist;
+				INFOPLIST_FILE = LikeCardApp/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,7 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LikeCardApp/Info.plist;
+				INFOPLIST_FILE = LikeCardApp/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
