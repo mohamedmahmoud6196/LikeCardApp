@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A6FDA4F2970542100CA58CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA4E2970542100CA58CE /* AppDelegate.swift */; };
+		3A6FDA512970542200CA58CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA502970542200CA58CE /* SceneDelegate.swift */; };
+		3A6FDA532970542200CA58CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA522970542200CA58CE /* ViewController.swift */; };
+		3A6FDA562970542200CA58CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FDA542970542200CA58CE /* Main.storyboard */; };
+		3A6FDA582970542300CA58CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FDA572970542300CA58CE /* Assets.xcassets */; };
+		3A6FDA5B2970542300CA58CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */; };
+		3A6FDA662970542300CA58CE /* LikeCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA652970542300CA58CE /* LikeCardAppTests.swift */; };
+		3A6FDA702970542300CA58CE /* LikeCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA6F2970542300CA58CE /* LikeCardAppUITests.swift */; };
+		3A6FDA722970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FDA712970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A6FDA622970542300CA58CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A6FDA432970542100CA58CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A6FDA4A2970542100CA58CE;
+			remoteInfo = LikeCardApp;
+		};
+		3A6FDA6C2970542300CA58CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A6FDA432970542100CA58CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A6FDA4A2970542100CA58CE;
+			remoteInfo = LikeCardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A6FDA4B2970542100CA58CE /* LikeCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6FDA4E2970542100CA58CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A6FDA502970542200CA58CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3A6FDA522970542200CA58CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A6FDA552970542200CA58CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A6FDA572970542300CA58CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A6FDA5A2970542300CA58CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A6FDA5C2970542300CA58CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6FDA612970542300CA58CE /* LikeCardAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6FDA652970542300CA58CE /* LikeCardAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardAppTests.swift; sourceTree = "<group>"; };
+		3A6FDA6B2970542300CA58CE /* LikeCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A6FDA6F2970542300CA58CE /* LikeCardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardAppUITests.swift; sourceTree = "<group>"; };
+		3A6FDA712970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCardAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A6FDA482970542100CA58CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6FDA5E2970542300CA58CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6FDA682970542300CA58CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A6FDA422970542100CA58CE = {
+			isa = PBXGroup;
+			children = (
+				3A6FDA4D2970542100CA58CE /* LikeCardApp */,
+				3A6FDA642970542300CA58CE /* LikeCardAppTests */,
+				3A6FDA6E2970542300CA58CE /* LikeCardAppUITests */,
+				3A6FDA4C2970542100CA58CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A6FDA4C2970542100CA58CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A6FDA4B2970542100CA58CE /* LikeCardApp.app */,
+				3A6FDA612970542300CA58CE /* LikeCardAppTests.xctest */,
+				3A6FDA6B2970542300CA58CE /* LikeCardAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A6FDA4D2970542100CA58CE /* LikeCardApp */ = {
+			isa = PBXGroup;
+			children = (
+				3A6FDA4E2970542100CA58CE /* AppDelegate.swift */,
+				3A6FDA502970542200CA58CE /* SceneDelegate.swift */,
+				3A6FDA522970542200CA58CE /* ViewController.swift */,
+				3A6FDA542970542200CA58CE /* Main.storyboard */,
+				3A6FDA572970542300CA58CE /* Assets.xcassets */,
+				3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */,
+				3A6FDA5C2970542300CA58CE /* Info.plist */,
+			);
+			path = LikeCardApp;
+			sourceTree = "<group>";
+		};
+		3A6FDA642970542300CA58CE /* LikeCardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A6FDA652970542300CA58CE /* LikeCardAppTests.swift */,
+			);
+			path = LikeCardAppTests;
+			sourceTree = "<group>";
+		};
+		3A6FDA6E2970542300CA58CE /* LikeCardAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A6FDA6F2970542300CA58CE /* LikeCardAppUITests.swift */,
+				3A6FDA712970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift */,
+			);
+			path = LikeCardAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A6FDA4A2970542100CA58CE /* LikeCardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6FDA752970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardApp" */;
+			buildPhases = (
+				3A6FDA472970542100CA58CE /* Sources */,
+				3A6FDA482970542100CA58CE /* Frameworks */,
+				3A6FDA492970542100CA58CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeCardApp;
+			productName = LikeCardApp;
+			productReference = 3A6FDA4B2970542100CA58CE /* LikeCardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A6FDA602970542300CA58CE /* LikeCardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6FDA782970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardAppTests" */;
+			buildPhases = (
+				3A6FDA5D2970542300CA58CE /* Sources */,
+				3A6FDA5E2970542300CA58CE /* Frameworks */,
+				3A6FDA5F2970542300CA58CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6FDA632970542300CA58CE /* PBXTargetDependency */,
+			);
+			name = LikeCardAppTests;
+			productName = LikeCardAppTests;
+			productReference = 3A6FDA612970542300CA58CE /* LikeCardAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A6FDA6A2970542300CA58CE /* LikeCardAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A6FDA7B2970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardAppUITests" */;
+			buildPhases = (
+				3A6FDA672970542300CA58CE /* Sources */,
+				3A6FDA682970542300CA58CE /* Frameworks */,
+				3A6FDA692970542300CA58CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A6FDA6D2970542300CA58CE /* PBXTargetDependency */,
+			);
+			name = LikeCardAppUITests;
+			productName = LikeCardAppUITests;
+			productReference = 3A6FDA6B2970542300CA58CE /* LikeCardAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A6FDA432970542100CA58CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3A6FDA4A2970542100CA58CE = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					3A6FDA602970542300CA58CE = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3A6FDA4A2970542100CA58CE;
+					};
+					3A6FDA6A2970542300CA58CE = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 3A6FDA4A2970542100CA58CE;
+					};
+				};
+			};
+			buildConfigurationList = 3A6FDA462970542100CA58CE /* Build configuration list for PBXProject "LikeCardApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A6FDA422970542100CA58CE;
+			productRefGroup = 3A6FDA4C2970542100CA58CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A6FDA4A2970542100CA58CE /* LikeCardApp */,
+				3A6FDA602970542300CA58CE /* LikeCardAppTests */,
+				3A6FDA6A2970542300CA58CE /* LikeCardAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A6FDA492970542100CA58CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6FDA5B2970542300CA58CE /* LaunchScreen.storyboard in Resources */,
+				3A6FDA582970542300CA58CE /* Assets.xcassets in Resources */,
+				3A6FDA562970542200CA58CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6FDA5F2970542300CA58CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6FDA692970542300CA58CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A6FDA472970542100CA58CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6FDA532970542200CA58CE /* ViewController.swift in Sources */,
+				3A6FDA4F2970542100CA58CE /* AppDelegate.swift in Sources */,
+				3A6FDA512970542200CA58CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6FDA5D2970542300CA58CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6FDA662970542300CA58CE /* LikeCardAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6FDA672970542300CA58CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6FDA702970542300CA58CE /* LikeCardAppUITests.swift in Sources */,
+				3A6FDA722970542300CA58CE /* LikeCardAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A6FDA632970542300CA58CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A6FDA4A2970542100CA58CE /* LikeCardApp */;
+			targetProxy = 3A6FDA622970542300CA58CE /* PBXContainerItemProxy */;
+		};
+		3A6FDA6D2970542300CA58CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A6FDA4A2970542100CA58CE /* LikeCardApp */;
+			targetProxy = 3A6FDA6C2970542300CA58CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A6FDA542970542200CA58CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6FDA552970542200CA58CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A6FDA592970542300CA58CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A6FDA5A2970542300CA58CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A6FDA732970542300CA58CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A6FDA742970542300CA58CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A6FDA762970542300CA58CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LikeCardApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A6FDA772970542300CA58CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LikeCardApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A6FDA792970542300CA58CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeCardApp.app/LikeCardApp";
+			};
+			name = Debug;
+		};
+		3A6FDA7A2970542300CA58CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeCardApp.app/LikeCardApp";
+			};
+			name = Release;
+		};
+		3A6FDA7C2970542300CA58CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikeCardApp;
+			};
+			name = Debug;
+		};
+		3A6FDA7D2970542300CA58CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LikCard.LikeCardAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikeCardApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A6FDA462970542100CA58CE /* Build configuration list for PBXProject "LikeCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6FDA732970542300CA58CE /* Debug */,
+				3A6FDA742970542300CA58CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A6FDA752970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6FDA762970542300CA58CE /* Debug */,
+				3A6FDA772970542300CA58CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A6FDA782970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6FDA792970542300CA58CE /* Debug */,
+				3A6FDA7A2970542300CA58CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A6FDA7B2970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A6FDA7C2970542300CA58CE /* Debug */,
+				3A6FDA7D2970542300CA58CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A6FDA432970542100CA58CE /* Project object */;
+}
