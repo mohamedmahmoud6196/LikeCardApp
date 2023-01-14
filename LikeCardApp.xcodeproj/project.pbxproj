@@ -16,6 +16,9 @@
 		3A91C62A297056B90034CD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A91C626297056B90034CD42 /* ViewController.swift */; };
 		3A91C62B297056B90034CD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A91C627297056B90034CD42 /* Assets.xcassets */; };
 		3A91C62C297056B90034CD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A91C628297056B90034CD42 /* Main.storyboard */; };
+		578B78AD5300D85BF2F5EE89 /* Pods_LikeCardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB54BB93654F20F06DA8ECF /* Pods_LikeCardApp.framework */; };
+		8BD750F8B76D9D609AD1781E /* Pods_LikeCardApp_LikeCardAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237901292949642F574380F7 /* Pods_LikeCardApp_LikeCardAppUITests.framework */; };
+		DD12D2300B8EAD78C2D080B9 /* Pods_LikeCardAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7752383D2CD6E984D992868 /* Pods_LikeCardAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E167B10AB431FE2D2C7A20D /* Pods-LikeCardAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardAppTests/Pods-LikeCardAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20306C87EE3A1843389E0E8C /* Pods-LikeCardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardApp.release.xcconfig"; path = "Target Support Files/Pods-LikeCardApp/Pods-LikeCardApp.release.xcconfig"; sourceTree = "<group>"; };
+		237901292949642F574380F7 /* Pods_LikeCardApp_LikeCardAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardApp_LikeCardAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6FDA4B2970542100CA58CE /* LikeCardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeCardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6FDA4E2970542100CA58CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6FDA502970542200CA58CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		3A91C626297056B90034CD42 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A91C627297056B90034CD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A91C629297056B90034CD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518CCD0201893DDE401D7C05 /* Pods-LikeCardAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardAppTests.release.xcconfig"; path = "Target Support Files/Pods-LikeCardAppTests/Pods-LikeCardAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F7FD94BE3BD3B92BF616463 /* Pods-LikeCardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardApp.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardApp/Pods-LikeCardApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D2D9AAF3EE0F5BC075999B31 /* Pods-LikeCardApp-LikeCardAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardApp-LikeCardAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LikeCardApp-LikeCardAppUITests/Pods-LikeCardApp-LikeCardAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D436CD093CD319052B61F2A3 /* Pods-LikeCardApp-LikeCardAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LikeCardApp-LikeCardAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LikeCardApp-LikeCardAppUITests/Pods-LikeCardApp-LikeCardAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7752383D2CD6E984D992868 /* Pods_LikeCardAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB54BB93654F20F06DA8ECF /* Pods_LikeCardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LikeCardApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578B78AD5300D85BF2F5EE89 /* Pods_LikeCardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD12D2300B8EAD78C2D080B9 /* Pods_LikeCardAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD750F8B76D9D609AD1781E /* Pods_LikeCardApp_LikeCardAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A39864E2972A646009B25C4 /* PodConfig */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PodConfig;
+			sourceTree = "<group>";
+		};
 		3A6FDA422970542100CA58CE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				3A6FDA642970542300CA58CE /* LikeCardAppTests */,
 				3A6FDA6E2970542300CA58CE /* LikeCardAppUITests */,
 				3A6FDA4C2970542100CA58CE /* Products */,
+				EB678BDA6467BF0457ABBA48 /* Pods */,
+				94C474FF69EC52A5AAD41A37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,11 +160,36 @@
 		3A91C625297056B90034CD42 /* ReUsedModule */ = {
 			isa = PBXGroup;
 			children = (
+				3A39864E2972A646009B25C4 /* PodConfig */,
 				3A91C626297056B90034CD42 /* ViewController.swift */,
 				3A91C627297056B90034CD42 /* Assets.xcassets */,
 				3A91C628297056B90034CD42 /* Main.storyboard */,
 			);
 			path = ReUsedModule;
+			sourceTree = "<group>";
+		};
+		94C474FF69EC52A5AAD41A37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEB54BB93654F20F06DA8ECF /* Pods_LikeCardApp.framework */,
+				237901292949642F574380F7 /* Pods_LikeCardApp_LikeCardAppUITests.framework */,
+				E7752383D2CD6E984D992868 /* Pods_LikeCardAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB678BDA6467BF0457ABBA48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F7FD94BE3BD3B92BF616463 /* Pods-LikeCardApp.debug.xcconfig */,
+				20306C87EE3A1843389E0E8C /* Pods-LikeCardApp.release.xcconfig */,
+				D2D9AAF3EE0F5BC075999B31 /* Pods-LikeCardApp-LikeCardAppUITests.debug.xcconfig */,
+				D436CD093CD319052B61F2A3 /* Pods-LikeCardApp-LikeCardAppUITests.release.xcconfig */,
+				1E167B10AB431FE2D2C7A20D /* Pods-LikeCardAppTests.debug.xcconfig */,
+				518CCD0201893DDE401D7C05 /* Pods-LikeCardAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A6FDA752970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardApp" */;
 			buildPhases = (
+				546BEE1C30FB6816FB3E1379 /* [CP] Check Pods Manifest.lock */,
 				3A6FDA472970542100CA58CE /* Sources */,
 				3A6FDA482970542100CA58CE /* Frameworks */,
 				3A6FDA492970542100CA58CE /* Resources */,
+				9E741FDD9309362293730749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A6FDA782970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardAppTests" */;
 			buildPhases = (
+				527E3ABE950C75712DB012AA /* [CP] Check Pods Manifest.lock */,
 				3A6FDA5D2970542300CA58CE /* Sources */,
 				3A6FDA5E2970542300CA58CE /* Frameworks */,
 				3A6FDA5F2970542300CA58CE /* Resources */,
@@ -185,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A6FDA7B2970542300CA58CE /* Build configuration list for PBXNativeTarget "LikeCardAppUITests" */;
 			buildPhases = (
+				9A7AC6226BCEEBE75646A889 /* [CP] Check Pods Manifest.lock */,
 				3A6FDA672970542300CA58CE /* Sources */,
 				3A6FDA682970542300CA58CE /* Frameworks */,
 				3A6FDA692970542300CA58CE /* Resources */,
+				B3047E75E2B960AD652099E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +322,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		527E3ABE950C75712DB012AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		546BEE1C30FB6816FB3E1379 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A7AC6226BCEEBE75646A889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LikeCardApp-LikeCardAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E741FDD9309362293730749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardApp/Pods-LikeCardApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardApp/Pods-LikeCardApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCardApp/Pods-LikeCardApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3047E75E2B960AD652099E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardApp-LikeCardAppUITests/Pods-LikeCardApp-LikeCardAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LikeCardApp-LikeCardAppUITests/Pods-LikeCardApp-LikeCardAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LikeCardApp-LikeCardAppUITests/Pods-LikeCardApp-LikeCardAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A6FDA472970542100CA58CE /* Sources */ = {
@@ -448,6 +605,7 @@
 		};
 		3A6FDA762970542300CA58CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7FD94BE3BD3B92BF616463 /* Pods-LikeCardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +633,7 @@
 		};
 		3A6FDA772970542300CA58CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20306C87EE3A1843389E0E8C /* Pods-LikeCardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,6 +661,7 @@
 		};
 		3A6FDA792970542300CA58CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E167B10AB431FE2D2C7A20D /* Pods-LikeCardAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +681,7 @@
 		};
 		3A6FDA7A2970542300CA58CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518CCD0201893DDE401D7C05 /* Pods-LikeCardAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +701,7 @@
 		};
 		3A6FDA7C2970542300CA58CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D9AAF3EE0F5BC075999B31 /* Pods-LikeCardApp-LikeCardAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -557,6 +719,7 @@
 		};
 		3A6FDA7D2970542300CA58CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D436CD093CD319052B61F2A3 /* Pods-LikeCardApp-LikeCardAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
