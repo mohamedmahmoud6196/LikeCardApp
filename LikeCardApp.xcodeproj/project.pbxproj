@@ -91,13 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A39864E2972A646009B25C4 /* PodConfig */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PodConfig;
-			sourceTree = "<group>";
-		};
 		3A6FDA422970542100CA58CE = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +153,6 @@
 		3A91C625297056B90034CD42 /* ReUsedModule */ = {
 			isa = PBXGroup;
 			children = (
-				3A39864E2972A646009B25C4 /* PodConfig */,
 				3A91C626297056B90034CD42 /* ViewController.swift */,
 				3A91C627297056B90034CD42 /* Assets.xcassets */,
 				3A91C628297056B90034CD42 /* Main.storyboard */,
@@ -188,7 +180,6 @@
 				1E167B10AB431FE2D2C7A20D /* Pods-LikeCardAppTests.debug.xcconfig */,
 				518CCD0201893DDE401D7C05 /* Pods-LikeCardAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
